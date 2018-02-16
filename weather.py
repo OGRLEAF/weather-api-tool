@@ -3,8 +3,8 @@ import urllib, urllib2, sys, json, os, shutil
 from prettytable import PrettyTable
 
 #测试数据
-city= "济宁"
-appcode = 'fd940d35c8394c988beb13608e8a7bd9'
+city= "yourcity"
+appcode = 'yourappcode'
 
 #阿里云天气API
 def getweather(appcode,city):
